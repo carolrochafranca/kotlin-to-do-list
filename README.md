@@ -27,8 +27,22 @@ O projeto usa uma separação simples inspirada em MVVM:
 1. Abra a pasta do projeto no Android Studio.
 2. Aguarde a sincronização do Gradle e instale os componentes do Android SDK sugeridos pela IDE, caso solicitado.
 3. Escolha um emulador ou dispositivo com Android 7.0 (API 24) ou superior.
-4. Execute o módulo `app`.
+4. Execute o módulo `app`.~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ## Evidências
 
-As imagens de execução devem ser armazenadas em `docs/evidencias`. Consulte o [roteiro de capturas](docs/evidencias/README.md) antes de enviar a atividade.
+![Lista inicial](docs/evidencias/1%20-Tela-inicial-com-a-lista-de-tarefas-em-execução.png)
+
+![Formulário de cadastro](docs/evidencias/2%20-%20Cadastro%20de%20uma%20nova%20tarefa.png)
+
+![Tarefa cadastrada](docs/evidencias/3%20-%20Tarefa%20cadastrada%20aparecendo%20na%20lista.png)
+
+![Edição de tarefa](docs/evidencias/4%20-%20Edição%20de%20uma%20tarefa%20existente.png)
+
+![Tarefa concluída](docs/evidencias/5%20-%20Tarefa%20marcada%20como%20concluída.png)
+
+![Exclusão de tarefa](docs/evidencias/6%20-%20Exclusão%20de%20uma%20tarefa.png)
+
+![Navegação](docs/evidencias/7%20-%20Navegação%20entre%20a%20lista%20e%20o%20formulário.png)
+
+![Build executado com sucesso](docs/evidencias/8%20-%20Build%20ou%20execução%20do%20projeto%20sem%20erros.png)
