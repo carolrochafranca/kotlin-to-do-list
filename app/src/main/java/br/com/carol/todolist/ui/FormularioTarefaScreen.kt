@@ -10,6 +10,7 @@ import androidx.compose.ui.unit.dp
 import br.com.carol.todolist.data.Tarefa
 
 @Composable
+@OptIn(ExperimentalMaterial3Api::class)
 fun FormularioTarefaScreen(tarefa: Tarefa?, aoSalvar: (Tarefa) -> Unit, aoVoltar: () -> Unit) {
     var titulo by rememberSaveable(tarefa?.id) { mutableStateOf(tarefa?.titulo.orEmpty()) }
     var descricao by rememberSaveable(tarefa?.id) { mutableStateOf(tarefa?.descricao.orEmpty()) }
