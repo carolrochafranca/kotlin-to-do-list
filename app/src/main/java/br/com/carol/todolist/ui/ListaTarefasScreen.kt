@@ -22,7 +22,7 @@ fun ListaTarefasScreen(tarefas: List<Tarefa>, aoCriar: () -> Unit, aoEditar: (Lo
 }
 @Composable private fun TarefaItem(tarefa: Tarefa, alternar: () -> Unit, editar: () -> Unit, excluir: () -> Unit) {
     Card { Row(Modifier.fillMaxWidth().padding(12.dp), horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-        Checkbox(tarefa.concluida, alternar); Column(Modifier.weight(1f)) { Text(tarefa.titulo, textDecoration = if (tarefa.concluida) TextDecoration.LineThrough else null); if (tarefa.descricao.isNotBlank()) Text(tarefa.descricao) }
+        Checkbox(checked = tarefa.concluida, onCheckedChange = { alternar() }); Column(Modifier.weight(1f)) { Text(tarefa.titulo, textDecoration = if (tarefa.concluida) TextDecoration.LineThrough else null); if (tarefa.descricao.isNotBlank()) Text(tarefa.descricao) }
         TextButton(editar) { Text("Editar") }; TextButton(excluir) { Text("Excluir") }
     }}
 }
