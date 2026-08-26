@@ -1,7 +1,7 @@
 plugins { alias(libs.plugins.android.application); alias(libs.plugins.kotlin.android); alias(libs.plugins.kotlin.compose); alias(libs.plugins.ksp) }
 
 android { namespace = "br.com.carol.todolist"; compileSdk = 35
-    defaultConfig { applicationId = "br.com.carol.todolist"; minSdk = 24; targetSdk = 35; versionCode = 1; versionName = "1.0" }
+    defaultConfig { applicationId = "br.com.carol.todolist"; minSdk = 24; targetSdk = 35; versionCode = 1; versionName = "1.0"; testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner" }
     buildFeatures { compose = true }
 }
 ksp { arg("room.schemaLocation", "$projectDir/schemas") }
@@ -13,4 +13,5 @@ dependencies {
     implementation(libs.androidx.lifecycle.viewmodel.compose); implementation(libs.androidx.navigation.compose)
     androidTestImplementation("androidx.test.ext:junit:1.2.1")
     androidTestImplementation("androidx.test:runner:1.6.2")
+    androidTestImplementation("androidx.test:core-ktx:1.6.1")
 }
