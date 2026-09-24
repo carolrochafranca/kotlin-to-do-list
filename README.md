@@ -41,8 +41,12 @@ O projeto usa uma separação simples inspirada em MVVM:
 
 ![Tarefa concluída](docs/evidencias/5%20-%20Tarefa%20marcada%20como%20concluída.png)
 
-![Exclusão de tarefa](docs/evidencias/6%20-%20Exclusão%20de%20uma%20tarefa.png)
-
 ![Navegação](docs/evidencias/7%20-%20Navegação%20entre%20a%20lista%20e%20o%20formulário.png)
 
 ![Build executado com sucesso](docs/evidencias/8%20-%20Build%20ou%20execução%20do%20projeto%20sem%20erros.png)
+
+<img width="375" height="854" alt="WhatsApp Image 2026-09-23 at 22 15 00" src="https://github.com/user-attachments/assets/4b96ff97-38b6-4f5f-8af2-7c2a5ca99b0d" />
+
+<img width="384" height="852" alt="WhatsApp Image 2026-09-23 at 22 15 16" src="https://github.com/user-attachments/assets/839ff0c5-4e0c-4682-b805-637d17aa0d82" />
+
+<img width="381" height="855" alt="WhatsApp Image 2026-09-23 at 22 15 29" src="https://github.com/user-attachments/assets/59ae49c1-d5c8-43f3-8737-758f89e559fc" />
